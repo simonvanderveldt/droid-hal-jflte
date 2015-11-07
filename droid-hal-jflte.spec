@@ -15,8 +15,4 @@
 # Don't create mount unit files for filesystems in qcom.fstab
 %define makefstab_skip_entries /efs /firmware /firmware-mdm
 
-%define straggler_files \
-/fstab.qcom\
-%{nil}
-
 %include rpm/dhd/droid-hal-device.inc
